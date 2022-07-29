@@ -1,3 +1,38 @@
 *   {
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    margin: 0;
+}
+
+body {
+    background-color: #171717;
+}
+
+.navbar {
+    padding: 15px;
+    background-color: #000000;
+    border-radius: 5px;
+    list-style-type: none;
+    margin: 10px;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;
+}
+
+.navbar a:hover {
+    background-color: #0f0f0f;
+    transition: all 0.35s ease;
+}
+
+header {
+    margin: 10px;
 }
