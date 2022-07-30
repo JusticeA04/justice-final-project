@@ -12,9 +12,10 @@ body {
 .navbar {
     padding: 15px;
     background-color: #000000;
-    border-radius: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     list-style-type: none;
-    margin: 10px;
+    margin: 0;
 }
 
 .navbar li {

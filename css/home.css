@@ -1,21 +1,39 @@
 header {
     margin: 0;
     padding-top: 25%;
-    background-color: #ffffff;
+    /* background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0.5) 100%); */
+    background-image: url(../img/waterfall.jpg);
+    background-attachment: fixed;
     height: 100vh;
     width: 100%;
 }
 
 .textbox {
-    border: solid 2px black;
+    border: solid 3px black;
+    background-color: #ffffff;
     width: 500px;
     padding: 10px;
     height: 200px;
     margin: auto;
-    text-align: justify;
+    text-align: center;
+    font-weight: 900;
+    font-size: 150%;
 }
 
-.textbox h1, h3, li {
+.textbox h1, h3 {
     font-family: 'Times New Roman', Times, serif;
     color: black;
+    margin-top: 30px;
+}
+
+main {
+    height: 100vh;
+}
+
+main p {
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    font-size: 150%;
 }
