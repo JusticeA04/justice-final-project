@@ -13,13 +13,27 @@ body {
     height: 10vh;
     padding: 15px;
     background-color: #000000;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 0px 0px;
     list-style-type: none;
     margin: 0;
 }
 
 .navbar li {
     display: inline-block;
+}
+
+.logo {
+    float: left;
+    padding: 5px 15px 5px 15px;
+}
+
+.logo h2 {
+    color: #00ff00;
+    font-family: 'Parisienne', cursive;
+}
+
+.link {
+    float: right;
 }
 
 .navbar a {
@@ -31,11 +45,14 @@ body {
 
 a:hover {
     background-color: #0f0f0f;
+    color: #b3ffa3;
     transition: all 0.35s ease;
 }
 
 header {
     padding: 20px;
+    background-color: #000000;
+    border-radius: 0 0 10px 10px;
 }
 
 main {
@@ -79,4 +96,8 @@ footer {
 
 .copyrights p {
     margin-bottom: 10px;
+}
+
+i {
+    color: rgb(0,255,0);
 }
