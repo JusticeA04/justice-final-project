@@ -41,5 +41,9 @@ main p {
     margin: 10px;
     padding: 15px;
     text-align: center;
-    font-size: 150%;
+    font-size: 200%;
+}
+
+div audio {
+    margin: auto;
 }

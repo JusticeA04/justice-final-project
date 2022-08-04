@@ -101,3 +101,30 @@ footer {
 i {
     color: rgb(0,255,0);
 }
+
+.aboutMain {
+    padding: 75px 5vw 75px 5vw;
+    height: 175vh;
+}
+
+.aboutImage {
+    height: 300px;
+    float: right;
+    padding: 10px;
+}
+
+.aboutText  {
+    height: 300px;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+.aboutText p {
+    font-size: 125%;
+    line-height: 40px;
+}
+
+.aboutImage img {
+    width: 300px;
+    height: 300px;
+}
